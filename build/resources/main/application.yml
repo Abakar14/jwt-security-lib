@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: jwt-security-lib
+# JWT Properties expiration and refresh times (in milliseconds)
+# Secret key
+jwt:
+    secret:
+        key: 8KvVu4Bn2KwBNX1MdnXY6VaRVLekVxurk3aaJxnzdCuZL6AHEL0EnnAOYLZtHWUr
+    access:
+        token:
+            expiration: 1800000 # 30 min in milliseconds for token expiration time
+    refresh:
+        token:
+            expiration: 604800000    # 7 days in milliseconds
+

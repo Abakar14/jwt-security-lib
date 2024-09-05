@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bytmasoft",
+    "module": "jwt-security-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jwt-security-lib-1.0.0.jar",
+          "url": "jwt-security-lib-1.0.0.jar",
+          "size": 9301,
+          "sha512": "8a7e257ba6f86b385c31a3101e57241b08b000e70f6a89a098661f629a7cd80745291bf7592ad35cc442bbb37a90f90d54094014a12abdf3da022878b942559a",
+          "sha256": "e54c1221631b3737fe24a6d180c805ccecda40ef397b562114912c7eb99477c8",
+          "sha1": "33959e3e05b8bc8e0736b5fde4645443af53c317",
+          "md5": "c927c9635f0460953a85df7335ff6947"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.11.5"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.11.5"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-jackson",
+          "version": {
+            "requires": "0.11.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jwt-security-lib-1.0.0.jar",
+          "url": "jwt-security-lib-1.0.0.jar",
+          "size": 9301,
+          "sha512": "8a7e257ba6f86b385c31a3101e57241b08b000e70f6a89a098661f629a7cd80745291bf7592ad35cc442bbb37a90f90d54094014a12abdf3da022878b942559a",
+          "sha256": "e54c1221631b3737fe24a6d180c805ccecda40ef397b562114912c7eb99477c8",
+          "sha1": "33959e3e05b8bc8e0736b5fde4645443af53c317",
+          "md5": "c927c9635f0460953a85df7335ff6947"
+        }
+      ]
+    }
+  ]
+}
