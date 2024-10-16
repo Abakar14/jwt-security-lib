@@ -27,11 +27,11 @@
         {
           "name": "jwt-security-lib-1.0.0.jar",
           "url": "jwt-security-lib-1.0.0.jar",
-          "size": 9259,
-          "sha512": "addff05c385d3f2792454f05de337ed66bc5a430c9a47198aff8ca4159f2d3aee62371c1e1ea094ca8a74d62c6cd011e3d9ef98effae15c5927b664204134fbb",
-          "sha256": "31fa4bb5ce9bdb143b4709202f6de7bb2fda7bdada1744c1ca06741252e91caf",
-          "sha1": "85fcdf697ba20d1420fa7ff09f94214a7e44e79b",
-          "md5": "a7462d9744a71c6b21fd21227bbcf8bb"
+          "size": 8601,
+          "sha512": "d88ebb26544d681a1eaceea8a126504994982ca95a810f203daf373c6e4cc695a5713a6e4abe2c10b0127d5c53bc6ab4471960c12681d9c77995f9ad1a670fd6",
+          "sha256": "b05c935fe8e40321dbc4c98fdd442a925d05a03ebbd33f22f804f66ba4d91f29",
+          "sha1": "ba7151ff2877218cd7d85905e47790ab8c344cc8",
+          "md5": "26747221c6b5b37f716c616467d213df"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "jwt-security-lib-1.0.0.jar",
           "url": "jwt-security-lib-1.0.0.jar",
-          "size": 9259,
-          "sha512": "addff05c385d3f2792454f05de337ed66bc5a430c9a47198aff8ca4159f2d3aee62371c1e1ea094ca8a74d62c6cd011e3d9ef98effae15c5927b664204134fbb",
-          "sha256": "31fa4bb5ce9bdb143b4709202f6de7bb2fda7bdada1744c1ca06741252e91caf",
-          "sha1": "85fcdf697ba20d1420fa7ff09f94214a7e44e79b",
-          "md5": "a7462d9744a71c6b21fd21227bbcf8bb"
+          "size": 8601,
+          "sha512": "d88ebb26544d681a1eaceea8a126504994982ca95a810f203daf373c6e4cc695a5713a6e4abe2c10b0127d5c53bc6ab4471960c12681d9c77995f9ad1a670fd6",
+          "sha256": "b05c935fe8e40321dbc4c98fdd442a925d05a03ebbd33f22f804f66ba4d91f29",
+          "sha1": "ba7151ff2877218cd7d85905e47790ab8c344cc8",
+          "md5": "26747221c6b5b37f716c616467d213df"
         }
       ]
     }

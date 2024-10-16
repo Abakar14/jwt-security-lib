@@ -8,7 +8,8 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -19,11 +20,14 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 import java.util.List;
+
 import java.util.stream.Collectors;
 
 
 @RequiredArgsConstructor
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
+
+    private static final Logger logger = LoggerFactory.getLogger(JwtAuthenticationFilter.class);
 
     private final JwtUtil jwtUtil;;
 
@@ -46,8 +50,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
                         List<GrantedAuthority> authorities = roles.stream().map(role ->  new SimpleGrantedAuthority(role)).collect(Collectors.toList());
 
-
-
                         UserDetails userDetails = new User(username, "", authorities);
 
                         JwtAuthenticationToken authentication = new JwtAuthenticationToken(userDetails,null, userDetails.getAuthorities());
@@ -58,7 +60,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 }
 
             }catch (ExpiredJwtException ex) {
-                // Propagate the exception so that it is handled by @ControllerAdvice
+
+                logger.error("JWT token has expired: {}", ex.getMessage());
                 throw ex; // Make sure this is thrown so AuthControllerAdvice can catch it
             }
         }
