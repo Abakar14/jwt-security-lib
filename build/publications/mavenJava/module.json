@@ -3,7 +3,7 @@
   "component": {
     "group": "com.bytmasoft",
     "module": "jwt-security-lib",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "jwt-security-lib-1.0.0.jar",
-          "url": "jwt-security-lib-1.0.0.jar",
-          "size": 8601,
-          "sha512": "d88ebb26544d681a1eaceea8a126504994982ca95a810f203daf373c6e4cc695a5713a6e4abe2c10b0127d5c53bc6ab4471960c12681d9c77995f9ad1a670fd6",
-          "sha256": "b05c935fe8e40321dbc4c98fdd442a925d05a03ebbd33f22f804f66ba4d91f29",
-          "sha1": "ba7151ff2877218cd7d85905e47790ab8c344cc8",
-          "md5": "26747221c6b5b37f716c616467d213df"
+          "name": "jwt-security-lib-1.0.1.jar",
+          "url": "jwt-security-lib-1.0.1.jar",
+          "size": 8646,
+          "sha512": "2b165f09cc7103e1d09c2cc3fc0b8dcd5352474354d62fcb61d96bda0de7520b646077752fe686cd8ca0befc50e669acad2fa0d1474c422c1dfc7fc6c29b0c2d",
+          "sha256": "e0c441e92b291bf7f31dd18dac6b2d8e04f095de1247cf80dead9cd794511b40",
+          "sha1": "2e79f8bb35993d62fad25f883ff99a4b59299a0a",
+          "md5": "266d309b4ea7110fc477949e6070d290"
         }
       ]
     },
@@ -83,13 +83,13 @@
       ],
       "files": [
         {
-          "name": "jwt-security-lib-1.0.0.jar",
-          "url": "jwt-security-lib-1.0.0.jar",
-          "size": 8601,
-          "sha512": "d88ebb26544d681a1eaceea8a126504994982ca95a810f203daf373c6e4cc695a5713a6e4abe2c10b0127d5c53bc6ab4471960c12681d9c77995f9ad1a670fd6",
-          "sha256": "b05c935fe8e40321dbc4c98fdd442a925d05a03ebbd33f22f804f66ba4d91f29",
-          "sha1": "ba7151ff2877218cd7d85905e47790ab8c344cc8",
-          "md5": "26747221c6b5b37f716c616467d213df"
+          "name": "jwt-security-lib-1.0.1.jar",
+          "url": "jwt-security-lib-1.0.1.jar",
+          "size": 8646,
+          "sha512": "2b165f09cc7103e1d09c2cc3fc0b8dcd5352474354d62fcb61d96bda0de7520b646077752fe686cd8ca0befc50e669acad2fa0d1474c422c1dfc7fc6c29b0c2d",
+          "sha256": "e0c441e92b291bf7f31dd18dac6b2d8e04f095de1247cf80dead9cd794511b40",
+          "sha1": "2e79f8bb35993d62fad25f883ff99a4b59299a0a",
+          "md5": "266d309b4ea7110fc477949e6070d290"
         }
       ]
     }

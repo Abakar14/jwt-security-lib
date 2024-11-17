@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.bytmasoft'
-version = '1.0.0'
+version = '1.0.1'
 
 java {
     toolchain {
@@ -23,7 +23,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             artifactId = 'jwt-security-lib'
-            version = '1.0.0'
+            version = '1.0.1'
             from components.java
             versionMapping {
                 usage('java-api') {

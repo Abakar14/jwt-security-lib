@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bytmasoft.JwtSecurityLibApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-16T20:30:32" hostname="Abakar-L15" time="0.879">
+<testsuite name="com.bytmasoft.JwtSecurityLibApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-16T22:36:12" hostname="L15-Gen-4" time="1.158">
   <properties/>
-  <testcase name="contextLoads()" classname="com.bytmasoft.JwtSecurityLibApplicationTests" time="0.879"/>
-  <system-out><![CDATA[22:30:30.158 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bytmasoft.JwtSecurityLibApplicationTests]: JwtSecurityLibApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-22:30:30.243 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bytmasoft.Application for test class com.bytmasoft.JwtSecurityLibApplicationTests
+  <testcase name="contextLoads()" classname="com.bytmasoft.JwtSecurityLibApplicationTests" time="1.158"/>
+  <system-out><![CDATA[23:36:09.626 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bytmasoft.JwtSecurityLibApplicationTests]: JwtSecurityLibApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:36:09.766 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bytmasoft.Application for test class com.bytmasoft.JwtSecurityLibApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,16 +14,16 @@
 
  :: Spring Boot ::                (v3.3.3)
 
-2024-10-16T22:30:30.689+02:00  INFO 457767 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : Starting JwtSecurityLibApplicationTests using Java 21.0.4 with PID 457767 (started by abakar in /home/abakar/programming/git_repos/dss/jwt-security-lib)
-2024-10-16T22:30:30.690+02:00  INFO 457767 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2024-10-16T22:30:31.852+02:00  WARN 457767 --- [jwt-security-lib] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2024-11-16T23:36:10.427+01:00  INFO 52449 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : Starting JwtSecurityLibApplicationTests using Java 21.0.5 with PID 52449 (started by abakar in /home/abakar/programming/git_repos/dss/jwt-security-lib)
+2024-11-16T23:36:10.429+01:00  INFO 52449 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-11-16T23:36:12.295+01:00  WARN 52449 --- [jwt-security-lib] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: c5f799d6-a7e3-4bc5-bbab-77b51b0e48c2
+Using generated security password: 69feaf16-8dc0-4105-a4c5-c7f359f30ce0
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2024-10-16T22:30:31.870+02:00  INFO 457767 --- [jwt-security-lib] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2024-10-16T22:30:31.997+02:00  INFO 457767 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : Started JwtSecurityLibApplicationTests in 1.616 seconds (process running for 2.627)
+2024-11-16T23:36:12.324+01:00  INFO 52449 --- [jwt-security-lib] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-16T23:36:12.526+01:00  INFO 52449 --- [jwt-security-lib] [    Test worker] c.b.JwtSecurityLibApplicationTests       : Started JwtSecurityLibApplicationTests in 2.521 seconds (process running for 4.016)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/abakar/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
