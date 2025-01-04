@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.bytmasoft'
-version = '1.0.1'
+version = '1.1.6'
 
 java {
     toolchain {
@@ -23,7 +23,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             artifactId = 'jwt-security-lib'
-            version = '1.0.1'
+            version = '1.1.6'
             from components.java
             versionMapping {
                 usage('java-api') {
@@ -71,14 +71,28 @@ dependencyManagement {
     }
 }
 
+ext {
+    jjwtVersion = '0.11.5'
+  }
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-security'
+    //Spring Boot Starters
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+
+    //Jwt & Security
     implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: "${jjwtVersion}"
     runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-impl', version:  "${jjwtVersion}"
     runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: "${jjwtVersion}"
+
+    //Cache
+    implementation 'com.google.guava:guava:33.0.0-jre' // Use the latest version
+
+    //Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
+    //Testing
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
